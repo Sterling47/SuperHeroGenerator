@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Splash', cursive;
+    color: white;
+    background-image: url(resources/superherobackground.png);
+  
+  }
+  
+  input {
+    background-color: grey ;
+    border-radius: 20px;
+    border-style: none;
+    width: 100px;
+    color: #39ff14;
+    text-align: center;
+   
+  }
+  
+  
+  
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    border: dashed grey 6px;
+    background-color:  #0f0f10 ;
+    border-radius: 35px;
+   
+    height: fit-content;
+    width: fit-content;
+    margin: 25PX;
+    padding: 25px;
+    box-shadow:15px 15px #1e1e1f;
+    
+    
+  }
+  
+  .bttnPlacement {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  flex-direction: column;
+  }
+  
+  button {
+    
+    background-color:  #414244;
+    border-radius: 25px;
+    width: 106px;
+    border-style: none;
+  }
+  
+  button:hover {
+    background-color: #240000;
+  }
+  
+  button:active {
+    background-color:  #240000 ;
+    color: white;
+  }
